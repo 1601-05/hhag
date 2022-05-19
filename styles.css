@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Baloo 2", cursive;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu #main-menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 1.25rem 1.875rem;
+  background-color: #143980;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 1.25rem;
+}
+
+nav #main-menu li:hover a {
+  background: #d92727;
+  transition: all 0.3s;
+  text-decoration: underline;
+}
+
+#toggle {
+  color: #000;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.9rem;
+  cursor: pointer;
+}
+
+#toggle i:hover {
+  color: #143980;
+}
+
+.home {
+  background-image: url("img/ĐHKH (312).jpg");
+  width: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.home h1 {
+  font-size: 6.25rem;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 4.2rem;
+  user-select: none;
+}
+
+.home-inner {
+  padding-bottom: 33.5rem;
+}
+.logo {
+  width: 9%;
+  padding-top: 6.2rem;
+  padding-bottom: 1rem;
+}
+
+.home-btn {
+  border: none;
+  background-color: #143980;
+  border-radius: 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.875rem;
+  padding: 1.25rem 1.875rem 1.25rem 1.875rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  color: #143980;
+  background-color: #fff;
+  text-decoration: none;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  background-color: #143980;
+  padding: 20px 0 20px 0;
+}
+
+.footer-content h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.footer-social {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social i {
+  font-size: 2rem;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.about-us .head h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 3rem;
+  background-color: #143980;
+  color: #fff;
+  font-weight: 700;
+}
+
+.about-us .content img {
+  width: 100%;
+}
+
+.copyright h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.copyright hr {
+  margin: 1.5rem 4rem;
+}
+
+.firstline img {
+  padding: 4rem;
+  border: 1px solid #fff;
+  border-radius: 5rem;
+}
+
+.firstline pre,
+.firstline h1 {
+  padding: 0 3rem;
+  font-size: 1.7rem;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2.2rem;
+}
+
+.firstline td {
+  width: 50%;
+}
+
+.firstline h1 {
+  font-weight: 700;
+  padding-bottom: 1rem;
+  padding-top: 7rem;
+  font-size: 2rem;
+}
+
+.secondline {
+  background-color: #143980;
+}
+
+.secondline img {
+  padding: 4rem 4rem;
+  border: 1px #143980 solid;
+  border-radius: 5rem;
+}
+
+.secondline pre {
+  padding: 15rem 0rem 11rem 17rem;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif; line-height: 3rem;
+}
+
+.thirdline img {
+  padding: 4rem;
+  border: 1px solid #fff;
+  border-radius: 5rem;
+}
+
+.thirdline pre,
+.thirdline h1 {
+  padding: 0 4rem;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif; line-height: 2.2rem;
+}
+
+.thirdline td {
+  width: 50%;
+}
+
+.thirdline h1 {
+  font-weight: 700;
+  padding-bottom: 1rem;
+  padding-top: 9rem;
+  font-size: 2rem;
+}
+
+.chuyen{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.chuyen h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 3rem;
+  background-color: #143980;
+  color: #fff;
+}
+
+.chuyen table {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.chuyen td{
+  width: 33.3%;
+  padding-bottom: 3rem;
+}
+
+.chuyen img{
+  width: 40%;
+}
+
+.chuyen a{
+  padding-top: 1rem;
+  font-size:2rem;
+  font-weight: 700;
+  color:#143980;
+  text-decoration: none;
+}
